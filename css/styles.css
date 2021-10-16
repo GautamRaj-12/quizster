@@ -152,6 +152,14 @@ header {
   width: 100%;
 }
 
+/*Quizzes Section*/
+.quizzes {
+  text-align: center;
+  font-family: cardo-regular;
+}
+.quizzes h4 {
+  font-size: 2rem;
+}
 /*Quiz-Section*/
 .quiz-section h2 {
   text-align: center;
@@ -230,6 +238,7 @@ header {
 }
 /*Footer*/
 footer {
+  margin-top: 30px;
   height: 10vh;
   display: flex;
   font-size: 1.5rem;
