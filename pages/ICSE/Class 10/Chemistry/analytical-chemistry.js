@@ -1,3 +1,5 @@
+let displayName = prompt("What is your name?");
+document.querySelector(".display-name").textContent = `Name: ${displayName}`;
 const correctAnswers = ["C", "D", "C", "B", "A", "D", "D", "C", "D", "C"];
 const form = document.querySelector(".quiz-form");
 
@@ -46,6 +48,7 @@ form.addEventListener("submit", (e) => {
   //show result on page
   let finalResult = document.querySelector(".result");
   finalResult.querySelector("span").textContent = `${score}`;
+  finalResult.querySelector("span").textContent += `/${correctAnswers.length}`;
   finalResult.classList.remove("d-none");
   let percent = document.querySelector(".percent");
 

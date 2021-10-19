@@ -102,7 +102,6 @@ header {
   font-family: karla;
   cursor: pointer;
 }
-
 /*main content styles*/
 .main-content {
   height: 90vh;
@@ -235,6 +234,13 @@ header {
   color: hsl(12, 50%, 50%);
   font-family: Rancho;
   letter-spacing: 3px;
+}
+.display-name {
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 10px 0;
+  font-family: PT sans;
+  color: var(--green);
 }
 /*Footer*/
 footer {
