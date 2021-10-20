@@ -1,5 +1,5 @@
-let displayName = prompt("What is your name?");
-document.querySelector(".display-name").textContent = `Name: ${displayName}`;
+// let displayName = prompt("What is your name?");
+// document.querySelector(".display-name").textContent = `Name: ${displayName}`;
 const correctAnswers = ["B", "A", "D", "A", "C", "B", "C", "D", "B", "D", "B"];
 const form = document.querySelector(".quiz-form");
 
