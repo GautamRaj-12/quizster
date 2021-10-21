@@ -1,21 +1,20 @@
 // let displayName = prompt("What is your name?");
 // document.querySelector(".display-name").textContent = `Name: ${displayName}`;
 const correctAnswers = [
-  "D",
-  "C",
-  "C",
+  "A",
+  "A",
   "B",
   "A",
-  "A",
   "C",
-  "A",
   "D",
   "A",
-  "C",
+  "D",
   "B",
-  "D",
+  "B",
   "A",
   "C",
+  "A",
+  "D",
 ];
 const form = document.querySelector(".quiz-form");
 
@@ -38,7 +37,6 @@ form.addEventListener("submit", (e) => {
     form.q12.value,
     form.q13.value,
     form.q14.value,
-    form.q15.value,
   ];
 
   //check answers
